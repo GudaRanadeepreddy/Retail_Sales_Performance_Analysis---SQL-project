@@ -1,12 +1,12 @@
-# Retail_Sales_Performance_Analysis---SQL-project
+## Retail_Sales_Performance_Analysis---SQL-project
 This repository contains a complete SQL database setup and analysis scripts for a sales dataset, including schema creation for accounts, orders, sales reps, regions, and web events, plus key queries for revenue analysis, customer performance, and web traffic insights.
 
-Project Overview:
+#Project Overview:
 
 A relational database was designed to analyze sales performance, customer behavior, web traffic, and regional revenue trends. The project simulates a real-world sales environment by integrating customer accounts, orders, sales representatives, regions, and web events data. It includes SQL commands to clean data (e.g., handling null primary POC), compute metrics like total revenue and top customers, and generate views for ongoing analysis.
 
 
-Key Objectives:
+#Key Objectives:
 1. Set up a sales database: Create and populate a retail sales database with the provided sales data.
 2. Data Cleaning: Identify and remove any records with missing or null values.
 3. Exploratory Data Analysis (EDA): Perform basic exploratory data analysis to understand the dataset.
@@ -14,7 +14,7 @@ Key Objectives:
 
 
 
-Database Design:
+#Database Design:
 
 The database includes 5 core tables:
 
@@ -24,7 +24,7 @@ The database includes 5 core tables:
 4. region – geographical sales regions
 5. web_events – website interaction and traffic data
 
-About Data:
+#About Data:
 Tables Structure
 | Table     | Key Columns                                                              | Purpose                             |
 | --------- | ------------------------------------------------------------------------ | ----------------------------------- |
@@ -35,7 +35,7 @@ Tables Structure
 | webevents | id, accountid, occurredat, channel                                       | Website visits by channel.          |
 
 
-Key Features & Analysis:
+#Key Features & Analysis:
 
 • Created and managed a structured SQL database (sales_analysis).
 
@@ -56,7 +56,7 @@ Key Features & Analysis:
 
 
 
-SQL Concepts Used:
+#SQL Concepts Used:
 
 • Database & table creation
 
@@ -73,7 +73,7 @@ SQL Concepts Used:
 • Views for reporting
 
 
-Business Impact:
+#Business Impact:
 
 • Faster sales performance reporting
 
